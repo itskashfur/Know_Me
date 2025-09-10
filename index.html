@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kashfur Rahman — Portfolio</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+  <!-- Font Awesome (icons) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- NAV -->
+  <header class="site-header">
+  <div class="container nav-inner">
+    <div class="logo signature-logo"></div>
+    <nav class="nav" role="navigation">
+      <button id="navToggle" class="hamburger" aria-expanded="false" aria-controls="navList" title="Toggle navigation">
+        <span class="fa fa-bars"></span>
+      </button>
+      <ul id="navList">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!--<li><a href="#skills">Skills</a></li>
+        <li><a href="#tech">Tech Stack</a></li>-->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="main" class="site-main">
+
+
+    <!-- HERO -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <!-- left: text -->
+        <div class="hero-left">
+          <h1 class="hero-heading" aria-label="Hi I am Kashfur Rahman">
+            <span class="hi-part" aria-hidden="true">Hi<span class="wave">👋</span></span>
+            <span class="name-part" aria-hidden="true"></span>
+          </h1>
+
+          <p class="hero-sub small-type">Software Engineer · Data Scientist · Computer Vision & ML</p>
+
+          <div class="hero-cta">
+            <!-- replace your Google Drive resume link or pdf link below -->
+            <a class="btn primary" href="https://drive.google.com/file/d/1C-yPo6P4PUDLJ2NNuIhvpHydalTf2CxF/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              Resume <i class="fa fa-file-pdf"></i>
+            </a>
+
+            <div class="socials" aria-hidden="false">
+              <a href="https://github.com/itskashfur" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://linkedin.com/in/itskashfur" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://instagram.com/itskashfur" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+
+          <p class="hero-desc typewriter" data-typewriter>
+            I design and deliver production-ready ML and full-stack applications. I love solving problems with code and data.
+          </p>
+        </div>
+
+        <!-- right: image -->
+        <div class="hero-right">
+          <!-- Replace profile.jpg with your image -->
+          <img src="https://shorturl.at/RwI84" alt="Photo of Kashfur Rahman" class="profile-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-split>About Me</h2>
+        <p class="lead typewriter" data-typewriter>
+          I'm Kashfur Rahman — a software engineer & data scientist with experience in building computer vision systems, web services, and data pipelines.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section dark-surface">
+      <div class="container">
+        <h2 class="section-title" data-split>Skills</h2>
+
+        <div class="icon-grid">
+          <!-- each .icon-card shows tooltip on hover/focus -->
+          <div class="icon-card" tabindex="0" aria-label="Data Science">
+            <div class="icon-wrap"><i class="fa fa-database"></i></div>
+            <span class="icon-label">Data Science</span>
+          </div>
+
+          <div class="icon-card" tabindex="0" aria-label="Artificial Intelligence">
+            <div class="icon-wrap"><i class="fa fa-robot"></i></div>
+            <span class="icon-label">Artificial Intelligence</span>
+          </div>
+
+          <div class="icon-card" tabindex="0" aria-label="Machine Learning">
+            <div class="icon-wrap"><i class="fa fa-brain"></i></div>
+            <span class="icon-label">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="tech" class="section">
+      <div class="container">
+        <h2 class="section-title" data-split>Tech Stack</h2>
+
+        <div class="icon-grid tech-grid">
+          <!-- icons: use font-awesome where available; otherwise simple initials -->
+          <div class="icon-card tech" tabindex="0" aria-label="Pandas">
+            <div class="icon-wrap"><span class="abbr">pd</span></div>
+            <span class="icon-label">Pandas</span>
+          </div>
+
+          <div class="icon-card tech" tabindex="0" aria-label="Flask">
+            <div class="icon-wrap"><i class="fa-brands fa-python"></i></div>
+            <span class="icon-label">Flask</span>
+          </div>
+
+          <div class="icon-card tech" tabindex="0" aria-label="FastAPI">
+            <div class="icon-wrap"><span class="abbr">FA</span></div>
+            <span class="icon-label">FastAPI</span>
+          </div>
+
+          <div class="icon-card tech" tabindex="0" aria-label="SQL">
+            <div class="icon-wrap"><i class="fa-solid fa-database"></i></div>
+            <span class="icon-label">SQL</span>
+          </div>
+
+          <div class="icon-card tech" tabindex="0" aria-label="OpenCV">
+            <div class="icon-wrap"><span class="abbr">CV</span></div>
+            <span class="icon-label">OpenCV</span>
+          </div>
+
+          <div class="icon-card tech" tabindex="0" aria-label="MongoDB">
+            <div class="icon-wrap"><span class="abbr">MDB</span></div>
+            <span class="icon-label">MongoDB</span>
+          </div>
+
+          <div class="icon-card tech" tabindex="0" aria-label="Excel">
+            <div class="icon-wrap"><i class="fa-regular fa-file-excel"></i></div>
+            <span class="icon-label">Excel</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS (alternating layout) -->
+    <!-- PROJECTS (alternating layout) -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title" data-split>Projects</h2>
+
+        <div class="project-list">
+          <!-- Project 1: image left, content right -->
+          <article class="project-row" data-animate>
+            <div class="project-media">
+              <img src="https://shorturl.at/jrs5Q" alt="Automated Attendance" />
+            </div>
+            <div class="project-content">
+              <h3 class="proj-title">
+                Automated Attendance System
+                <a class="proj-link" href="https://github.com/itskashfur/attendance-project" target="_blank" aria-label="Project link">
+                  <i class="fa fa-external-link-alt"></i>
+                </a>
+              </h3>
+              <div class="proj-desc">
+                <p class="typewriter" data-typewriter>
+                  Face recognition with blink detection and anti-spoof checks — Python, OpenCV, Flask.
+                </p>
+              </div>
+              <div class="proj-actions">
+                <a class="btn ghost" href="https://github.com/itskashfur/attendance-project" target="_blank">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: image right, content left -->
+          <article class="project-row reverse" data-animate>
+            <div class="project-media">
+              <img src="https://shorturl.at/fuMfI" alt="Vision Analytics Dashboard" />
+            </div>
+            <div class="project-content">
+              <h3 class="proj-title">
+                Vision Analytics Dashboard
+                <a class="proj-link" href="https://github.com/itskashfur/vision-analytics" target="_blank" aria-label="Project link">
+                  <i class="fa fa-external-link-alt"></i>
+                </a>
+              </h3>
+              <div class="proj-desc">
+                <p class="typewriter" data-typewriter>
+                  Live-camera analytics, event detection and visual dashboards for operations teams.
+                </p>
+              </div>
+              <div class="proj-actions">
+                <a class="btn ghost" href="https://github.com/itskashfur/vision-analytics" target="_blank">View</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: image left, content right -->
+          <article class="project-row" data-animate>
+            <div class="project-media">
+              <img src="https://shorturl.at/yfPng" alt="Portfolio Website" />
+            </div>
+            <div class="project-content">
+              <h3 class="proj-title">
+                Personal Portfolio Website
+                <a class="proj-link" href="https://yourportfolio.com" target="_blank" aria-label="Project link">
+                  <i class="fa fa-external-link-alt"></i>
+                </a>
+              </h3>
+              <div class="proj-desc">
+                <p class="typewriter" data-typewriter>
+                  Lightweight, responsive portfolio with animated components and dark theme.
+                </p>
+              </div>
+              <div class="proj-actions">
+                <a class="btn ghost" href="https://yourportfolio.com" target="_blank">Visit</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section dark-surface">
+      <div class="container">
+        <h2 class="section-title" data-split>Services</h2>
+
+        <div class="services-grid">
+          <div class="service-card" tabindex="0" aria-label="Data Science Consulting">
+            <h3 class="service-title">Data Science Consulting</h3>
+            <p class="service-desc">
+              I offer consulting services for data science projects, including data cleaning, feature engineering, model development, and deployment.
+            </p>
+          </div>
+
+          <div class="service-card" tabindex="0" aria-label="Data Visualization">
+            <h3 class="service-title">Data Visualization</h3>
+            <p class="service-desc">
+              I specialize in creating interactive data visualizations using tools like Tableau and Power BI.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS - masonry style -->
+    <section id="achievements" class="section dark-surface">
+      <div class="container">
+        <h2 class="section-title" data-split>Achievements</h2>
+
+        <div class="masonry" id="masonry">
+          <!-- Use real images or placeholders named below in images/ folder -->
+          <figure class="masonry-item" data-animate>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCQyCTo8lvBN4PnQnYAuEoe7pz_M2GMLRKYnjALj4jdoSU4_DEgnUK-Wxd8Wk-j6YdzELr69zE3-8kUfCoq-awi9u5gofRSejA698xDLRWChZrbzo0Djr8n7PzFZbk0NmQVgBAcJe20Sxd3uoWw0UDEC3qiLyLGIn_wtMQt09ZJ9RMB5pTAFRfMgErM8/s1755/Python%20Full%20Stack%20Developer%20EduSkills.jpg" alt="Achievement 1" />
+            <figcaption class="caption">Python Full Stack Developer</figcaption>
+          </figure>
+
+          <figure class="masonry-item" data-animate>
+            <img src="https://shorturl.at/ajJVY" alt="Achievement 2" />
+            <img src="https://rb.gy/1p4uzm" alt="Achievement 2" />
+            <figcaption class="caption">Best Project — College Hackathon</figcaption>
+          </figure>
+
+          <figure class="masonry-item" data-animate>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6_NOrZB_n3CCk7wlc7Hso6dkK_7ca1Q7oLC5M4goc9FsFwl5rhjXQhQl3JV947YVoJ68qnrhV9GlVu7foM4AivHgRS_XlvXj3PaJDCdxuwhTOI1eKV6mDh-fYzsNpuTxBBSU2V4yWviul59_nd8wT_-2LIiWdLq5-7kWTGOyTRJyCdWfMtFfkWscMWVI/s972/GFG%20Python%20Cirtification.jpg" alt="Achievement 3" />
+            <figcaption class="caption">GfG Python Certificate</figcaption>
+          </figure>
+
+          <figure class="masonry-item" data-animate>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2WE0-PuwUPOIuinocgxbAPAs5v6XriBWprzFn6T3UBPQN6rTubdGB3c9dkghC_ix4-W2hbm_pfl3OSXxXhWQjEC77bv6fDvqCWLlixyP-gQzcnKbxt8Xpi-SG-ae01I7Jp2pYZbwltepdtPtJ4kFZ8I2LYip-HmUrrN5fCibq6E7H_fhBVNvTdI7MfmI/w248-h320/354kSp9maI.png" href="https://drive.google.com/file/d/167kQ3jYIIFW1rWJuPRSoExF70C-byUR5/view?usp=sharing" alt="Achievement 4" />
+            <figcaption class="caption">Published Model Paper</figcaption>
+          </figure>
+
+          <figure class="masonry-item" data-animate>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis-VnEY52YWnBCpH9wEOXJOIZa_0AxMth-x93lLX5XJ2xwpziiusHsfhyphenhyphenMkojJ7WT8DluR0eTMg9gacvE2XLLq2S7RqdramKJt2YoZ5mn5L4feVszVPuPU0DnHZadZ3Cn9WLx5fNbZWg__oKOYCvpQ8Eyvza8uwTa4FoTeDbqZOxCXf8pDluH2xpTaAH8/s1755/Deloitte%20Data%20Analysis%20Cirtificate_page-0001.jpg" alt="Achievement 5" />
+            <figcaption class="caption">Delloite Data Analysis Certificate</figcaption>
+          </figure>
+
+          <!-- add more as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="contact-form">
+          <h2 class="section-title" data-split>Contact</h2>
+
+          <section id="contact">
+          <div class="card" style="margin-top:10px">
+            <form onsubmit="alert('Form demo — replace with real endpoint');return false;">
+              <div style="display:flex;gap:10px;margin-bottom:10px">
+                <input placeholder="Your name" required style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+                <input placeholder="Email" required style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+              </div>
+              <textarea placeholder="Message" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+              <div style="margin-top:8px;text-align:right"><button class="btn" type="submit">Send</button></div>
+            </form>
+          </div>
+        </section>
+            </div>
+
+        <aside class="contact-info">
+          <h3>Contact Info</h3>
+          <p><i class="fa fa-envelope"></i> <a href="mailto:itskashfur@gmail.com">ITSKASHFUR@GMAIL.COM</a></p>
+          <p><i class="fa fa-map-marker-alt"></i> Hyderabad, <B>India</B></p>
+          
+          <h4></h4>
+          <div class="socials">
+            <a href="https://github.com/itskashfur" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/itskashfur" target="_blank"><i class="fab fa-linkedin"></i> </a>
+            <a href="https://instagram.com/itskashfur" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/itskashfur" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <!-- replace with your name or your brand <p>Developed <span class="heart"> 💕</span> by Kashfur Rahman</p>-->
+      <p>© Copyright 2025 <span id="year"></span> Kashfur Rahman</p>
+      <p>Built with <a href="https://github.com/itskashfur" target="_blank" rel="noopener noreferrer">Kashfur Rahman</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+  - Replace placeholder images in images/ folder with your own.
+  - Update text content with your details.
+  - Host on GitHub Pages, Netlify, Vercel, or any static hosting.
+  - Customize styles in styles.css as needed.
+  - Add your resume PDF in the specified path and update the link.
+  - Add your social links in the footer.
+  - Ensure all links and email addresses are correct.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kashfur Rahman — Portfolio (Clone)</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#93a3b8;--accent:#7c3aed}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Segoe UI,Roboto,system-ui,Arial;background:linear-gradient(180deg,#071028 0%,#071124 100%);color:#e6eef8;line-height:1.5}
+    .container{max-width:980px;margin:48px auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .avatar{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#1fb6ff);display:flex;align-items:center;justify-content:center;font-weight:700}
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px}
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:28px;margin-top:36px;align-items:start}
+    .intro h1{font-size:36px;margin:0 0 8px}
+    .intro p{color:var(--muted);margin:0 0 18px}
+    .cta{display:flex;gap:12px}
+    .btn{background:var(--accent);border:none;padding:10px 16px;border-radius:10px;color:white;cursor:pointer}
+    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:14px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    .skills{display:flex;flex-wrap:wrap;gap:10px}
+    .skill{padding:8px 10px;border-radius:8px;background:rgba(255,255,255,0.02);color:var(--muted);font-size:14px}
+    .right .profile-img{width:100%;height:100%;aspect-ratio:1/1;border-radius:12px;background:linear-gradient(180deg,#1f2937,#0b1220);display:flex;align-items:center;justify-content:center;font-size:22px}
+    section{margin-top:28px}
+    h2{margin:0 0 12px}
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+    .project{padding:14px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.02));}
+    footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+    /* simple hover reveal for icons */
+    .icons{display:flex;gap:10px}
+    .icon{width:44px;height:44px;border-radius:10px;background:rgba(255,255,255,0.02);display:flex;align-items:center;justify-content:center;position:relative;cursor:pointer}
+    .icon span{position:absolute;bottom:-30px;background:#0b1220;padding:6px 8px;border-radius:8px;font-size:12px;color:var(--muted);opacity:0;transform:translateY(6px);transition:all .18s}
+    .icon:hover span{opacity:1;transform:translateY(0)}
+    @media (max-width:880px){.hero{grid-template-columns:1fr}.projects{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar">AS</div>
+        <div>
+          <div style="font-weight:700">Kashfur Rahman</div>
+          <div style="color:var(--muted);font-size:13px">Frontend Developer • Designer</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="intro">
+        <h1>Hi, I'm Kashfur — I build beautiful, accessible websites.</h1>
+        <p>I design and code elegant interfaces, focused on performance and thoughtful UX. I’m currently open to freelance and contract work.</p>
+        <div class="cta">
+          <button class="btn">Hire me</button>
+          <a class="btn" href="#projects" style="background:transparent;border:1px solid rgba(255,255,255,0.06)">View work</a>
+        </div>
+
+        <section id="about" style="margin-top:22px">
+          <div class="card">
+            <h2>About me</h2>
+            <p style="color:var(--muted)">I’m a frontend developer specializing in building fast, accessible interfaces using modern tools like HTML, CSS and JavaScript. I care about simplicity, performance and clean code.</p>
+            <div style="margin-top:12px" class="skills">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">React</div>
+              <div class="skill">Next.js</div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <aside class="right">
+        <div class="card" style="padding:12px">
+          <div class="profile-img">Profile Image</div>
+          <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div style="font-weight:700">Kashfur Rahman</div>
+              <div style="color:var(--muted);font-size:13px">Based in India</div>
+            </div>
+            <div class="icons">
+              <div class="icon">🔗<span>Website</span></div>
+              <div class="icon">💼<span>LinkedIn</span></div>
+              <div class="icon">🐱<span>GitHub</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2>Contact</h2>
+          <p style="color:var(--muted);margin:0">Email: <a href="mailto:hello@example.com" style="color:var(--muted)">hello@example.com</a></p>
+        </div>
+      </aside>
+    </main>
+
+    <section id="projects">
+      <h2>Selected projects</h2>
+      <div class="projects" style="margin-top:12px">
+        <div class="project card">
+          <h3>Project One</h3>
+          <p style="color:var(--muted);margin:6px 0 0">A modern UI built with accessibility and performance in mind.</p>
+        </div>
+        <div class="project card">
+          <h3>Project Two</h3>
+          <p style="color:var(--muted);margin:6px 0 0">Design system and component library for a startup product.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Get in touch</h2>
+      <div class="card" style="margin-top:10px">
+        <form onsubmit="alert('Form demo — replace with real endpoint');return false;">
+          <div style="display:flex;gap:10px;margin-bottom:10px">
+            <input placeholder="Your name" required style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+            <input placeholder="Email" required style="flex:1;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+          </div>
+          <textarea placeholder="Message" required style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+          <div style="margin-top:8px;text-align:right"><button class="btn" type="submit">Send</button></div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Kashfur Rahman — Built with ❤️
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+  -->
