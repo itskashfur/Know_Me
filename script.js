@@ -6,7 +6,6 @@
    - typewriter-like reveal for small descriptions
    - contact form: open mailto on submit
 */
-
 // ---------- helpers ----------
 const qs = (s, root = document) => root.querySelector(s);
 const qsa = (s, root = document) => Array.from(root.querySelectorAll(s));
@@ -57,7 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(writeLetter, 400); // start after drop animation
   }
 });
-
 
 // Close nav when a link is clicked (mobile)
 qsa('.nav a').forEach(a => {
